@@ -1,0 +1,17 @@
+{
+  "name": "wincool-frontend",
+  "version": "1.0.0",
+  "description": "wincool frontend and mock server",
+  "main": "mock/index.js",
+  "scripts": {
+    "start": "supervisor mock/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Iron lu",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-ejs": "^4.0.0",
+    "koa-router": "^7.2.0"
+  }
+}
