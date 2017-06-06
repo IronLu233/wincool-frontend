@@ -10,7 +10,7 @@ const subRouterArray = [
 subRouterArray.forEach(r => apiRouter.use(r.routes(), r.allowedMethods()));
 
 const indexRouter = new Router();
-indexRouter.get('*', async (ctx, next) => {
+indexRouter.get('/', async (ctx, next) => {
   await ctx.render('index');
 })
 
